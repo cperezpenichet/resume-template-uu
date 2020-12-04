@@ -1,6 +1,8 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: "Carlos Pérez-Penichet"
+description: "Researcher at RISE, Connected Intelligence Unit"
+
+baseurl: '/~carpe933'
 
 # Build settings
 markdown: kramdown
@@ -10,53 +12,88 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Lisa M. Simpson"
-resume_title:                   "VP of Global Communications"
+resume_name:                    "Carlos Pérez-Penichet"
+resume_title:                   "Researcher"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "lisasimpson@youremailaddress.com"
+resume_contact_email:           ""
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "555-7334"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+resume_contact_telephone:       ""
+resume_contact_address:         ""
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
-display_header_contact_info:    "false"
+resume_header_contact_info:     "RISE Research Institutes of Sweden • Connected Intelligence Unit"
+display_header_contact_info:    "true"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p><mark>I have joined RISE in July 2020. This page is likely outdated.</mark></p>
+
+<p>My research is focused on applying backscatter
+communications and related techniques to integrate battery-free devices with
+commodity wireless networks such as WiFi, ZigBee or Bluetooth, with the purpose
+of facilitating their adoption and enabling new applications. </p>
+
+<p>I obtained a PhD from Uppsala Univesity in May 2020 under the supervision of
+<a href=https://www.it.uu.se/katalog/thvoi765>Prof. Thiemo Voigt.</a> and <a
+href=http://user.it.uu.se/~frehe489/>Dr. Frederik Hermans</a>. The title of my
+thesis was <a
+href=http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-407787>Seamless
+Integration of Battery-Free Communications in Commodity Wireless Networks<a/>,
+and my thesis opponent was <a href=https://www.kth.se/profile/jamesgr>James
+Gross</a> from KTH Royal Institute of Technology. Before the PhD I earned an
+Advanced Diploma in Telecommunications Engineering from the universities of
+Minho, Aveiro and Porto in Portugal and before that a Bachelors degree in
+Physics from the University of Havana.  </p> "
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
 # to leave blank
-resume_looking_for_work:        "yes"
+#resume_looking_for_work:        "yes"
 
 # Decide which sections to use
 # comment out to hide
+resume_section_publications:      true
 resume_section_experience:      true
-resume_section_education:       true
-resume_section_projects:        true
-resume_section_skills:          true
-resume_section_recognition:     true
-resume_section_links:           true
-resume_section_associations:    true
-# resume_section_interests:       true
+#resume_section_education:       true
+#resume_section_projects:        true
+#resume_section_skills:          true
+#resume_section_recognition:     true
+#resume_section_links:           true
+#resume_section_associations:    true
+#resume_section_interests:       true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
+  resume_github_url:            "https://github.com/cperezpenichet"
+  #resume_twitter_url:           "http://twitter.com/jglovier"
+  #resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  resume_linkedin_url:          "https://www.linkedin.com/in/cperezpenichet"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
-  resume_medium_url:            "https://medium.com/@jglovier"
+  resume_website_url:           "http://www.complexperiments.net/carlos/"
+  #resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 
 # Design settings
 resume_theme:                   default
+
+plugins: 
+  - 'jekyll/scholar'
+
+scholar:
+  style: _bibliography/publications.csl
+  locale: en
+  sort_by: year
+  order: descending
+  bibliography: publications_n
+  source: _bibliography
+  details_dir: ~carpe933/publications
+  details_layout: pub_details.html
+  details_link: Details and Download
+  use_raw_bibtex_entry: false
+  repository: ./papers
+  bibtex_skip_fields: [ 'file', 'month_numeric' ]
 
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes

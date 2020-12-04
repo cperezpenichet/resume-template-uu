@@ -1,0 +1,115 @@
+
+@article{noda_measuring_2006,
+	title = {Measuring activity in ant colonies},
+	volume = {77},
+	issn = {00346748},
+	url = {http://link.aip.org/link/RSINAK/v77/i12/p126102/s1&Agg=doi},
+	pdflink1 = {http://www.complexperiments.net/noda/papers/rsi_77_126102.pdf},
+	doi = {10.1063/1.2400215},
+	number = {12},
+	urldate = {2011-03-22},
+	journal = {Review of Scientific Instruments},
+	author = {Noda, C. and Fernández, J. and Pérez-Penichet, C. and Altshuler, E.},
+	year = {2006},
+	pages = {126102},
+	file = {Noda et al. - 2006 - Measuring activity in ant colonies.pdf:/home/carlos/.mozilla/firefox/kahidn8e.default/zotero/storage/HPJATSCI/Noda et al. - 2006 - Measuring activity in ant colonies.pdf:application/pdf}
+},
+
+@article{martinez_uphill_2007,
+	title = {Uphill solitary waves in granular flows},
+	volume = {75},
+	url = {http://www.complexperiments.net/Granulars/Papers/PRE07.pdf},
+	pdflink1 = {http://www.complexperiments.net/Granulars/Papers/PRE07.pdf},
+	doi = {10.1103/PhysRevE.75.031303},
+	number = {3},
+	journal = {Physical Review E},
+	author = {Martínez, E. and Pérez-Penichet, C. and Sotolongo-Costa, O. and Ramos, O. and Måløy, K. J. and Douady, S. and Altshuler, E.},
+	year = {2007},
+	pages = {031303},
+	file = {Martínez et al. - 2007 - Uphill solitary waves in granular flows.pdf:/home/carlos/.mozilla/firefox/kahidn8e.default/zotero/storage/8QKTZRDM/Martínez et al. - 2007 - Uphill solitary waves in granular flows.pdf:application/pdf}
+},
+
+@article{sanchez_valdes_laser_2007,
+	title = {Laser patterning: A new approach to measure local magneto-transport properties in multifilamentary superconducting tapes},
+	volume = {316},
+	issn = {0304-8853},
+	shorttitle = {Laser patterning},
+	url = {http://www.complexperiments.net/SC/SC_transp/Papers/JMMM07.pdf},
+	pdflink1 = {http://www.complexperiments.net/SC/SC_transp/Papers/JMMM07.pdf},
+	doi = {10.1016/j.jmmm.2007.03.145},
+	number = {2},
+	journal = {Journal of Magnetism and Magnetic Materials},
+	author = {Sánchez Valdés, C. F. and Pérez-Penichet, C. and Noda, C. and Arronte, M. and Batista-Leyva, A. J. and Haugen, O. and Johansen, T. H. and Han, Z. and Altshuler, E.},
+	year = {2007},
+	pages = {e930–e933},
+	file = {Sánchez Valdés et al_2007_Laser patterning.pdf:/home/carlos/.mozilla/firefox/kahidn8e.default/zotero/storage/KGFZ7W8S/Sánchez Valdés et al_2007_Laser patterning.pdf:application/pdf}
+},
+
+@phdthesis{carlos_perez-penichet_procesamiento_2009,
+	address = {Havana. Cuba},
+	type = {Diploma Thesis},
+	title = {Procesamiento e interpretación de imágenes en micro-flujos bacterianos},
+	pdflink1 = {http://www.complexperiments.net/carlos/files/Perez-Penichet_DiplomaThesis.pdf},
+	abstract = {Se aplica un grupo de técnicas de procesamiento digital de imágenes,
+ideadas o modificadas para esta situación específica, a mediciones de materia activa en canales microfluídicos; estas son empleadas para estudiar las propiedades del flujo establecido en una celda microfluídica real así como para
+evaluar cuantitativamente un nuevo fenómeno de rompimiento de simetría en micro-flujos de bacterias.},
+	language = {Spanish},
+	school = {University of Havana},
+	author = {{Carlos Pérez-Penichet}},
+	year = {2009},
+	slides = {http://www.complexperiments.net/carlos/files/Perez-Penichet_DiplomaThesis_Slides.pdf}
+},
+
+@misc{perez-penichet_dynamics_2011,
+	type = {Poster presentation},
+	title = {Dynamics of E. coli suspensions through a microfluidic funnel},
+	pdflink1 = {http://www.complexperiments.net/carlos/files/poster.psom.pdf},
+	abstract = {We have forced a fluid suspension of E. coli through a funnel-like constriction made
+on an otherwise straight microfluidic channel. In the case of very active bacteria, sym-
+metry is broken: the bacterial concentration gets higher immediately after passing the
+funnel. The effect increases with increased input flow, and eventually reaches a maxi-
+mum. Symmetry is not violated, however, in the case of dead or poorly active bacteria.
+The phenomena can be explained qualitatively in terms of hydrodynamic interactions
+of bacteria with the imposed flow and with other bacteria. Our observations suggests
+a simple way to concentrate very active bacteria in microfluidic channels.},
+	language = {English},
+	author = {Pérez-Penichet, Carlos and {Lenin del Río} and {Gastón Miño} and {A. Rousselet} and {A. Lidner} and {Eric Clément} and {Ernesto Altshuler}},
+	year = {2011}
+},
+
+@article{carlos_perez-penichet_human_2012,
+	title = {Human mobility analysis by collaborative radio landscape observation},
+	issn = {978-90-816960-0-5},
+	pdflink1 = {http://www.complexperiments.net/carlos/files/AGILE12.pdf},
+	abstract = {A new method to analyze the spatio-temporal activities of humans based on the symbolic information that can be extracted from a set
+of observations of mobile networks taken through smart phones is presented. Specifically, {GSM} and {WiFi} network observations collected
+by several users are gathered to collaboratively build a symbolic base map of the logical structure of the geography. At the same time a
+map of the mobility of each individual is also created from the same set of observations. The Proxmity Map is then used to provide some
+spatial context to the Individual Mobility Maps. This information is intended to be used for the analysis of transportation efficiency.},
+	language = {English},
+	urldate = {2013-03-02},
+	journal = {Proceedings of the {AGILE'2012} International Conference on Geographic Information Science},
+	author = {{Carlos Pérez-Penichet} and {Angelo Conde} and {Adriano Moreira}},
+	month = apr,
+	year = {2012},
+	pages = {153--158},
+	file = {Pérez-Penichet et al_Human mobility analysis by collaborative radio landscape observation.pdf:/home/carlos/.mozilla/firefox/kahidn8e.default/zotero/storage/EZEXSEDD/Pérez-Penichet et al_Human mobility analysis by collaborative radio landscape observation.pdf:application/pdf}
+},
+
+@article{altshuler_flow-controlled_2013,
+	title = {Flow-controlled densification and anomalous dispersion of E. coli through a constriction},
+	volume = {9},
+	issn = {1744-6848},
+	pdflink1 = {http://www.complexperiments.net/carlos/files/SoftMatter12.pdf},
+	doi = {10.1039/C2SM26460A},
+	abstract = {Dispersion and migration of bacteria under flow in tortuous and confined structures such as porous or fractured materials is related to a large spectrum of practical interest, but is still poorly understood. Here, we address the question of transport and dispersion of an E. coli suspension flowing through a},
+	language = {en},
+	number = {6},
+	urldate = {2013-03-02},
+	journal = {Soft Matter},
+	author = {Altshuler, E. and Miño, G. and Pérez-Penichet, C. and Río, L. del and Lindner, A. and Rousselet, A. and Clément, E.},
+	month = jan,
+	year = {2013},
+	pages = {1864--1870},
+	file = {Snapshot:/home/carlos/.mozilla/firefox/kahidn8e.default/zotero/storage/W9A6PJ77/C2SM26460A.html:text/html;SoftMatter12.pdf:/home/carlos/.mozilla/firefox/kahidn8e.default/zotero/storage/5CU8UIWS/SoftMatter12.pdf:application/pdf}
+}

@@ -1,0 +1,30 @@
+---
+layout: base
+---
+<section class="content-section">
+    <header class="section-header">
+        <h2>Publication details</h2>
+    </header>
+<!---<h3>{{ page.entry.title }}, {{ page.entry.author }}, {% if page.entry.booktitle %}{{page.entry.booktitle}}{% else %}{{page.entry.journal}}{% endif %}. {{page.entry.year}}.</h3> --->
+<h4>{% reference page.entry.key %}</h4> 
+
+{% if page.entry.abstract %}
+<h3>Abstract:</h3>
+<div id="main" class="span12">
+{{ page.entry.abstract }} <br />
+</div>
+<br />
+{% endif %}
+
+{% if page.links != empty and page.links != nil %}
+<b>Downloads:</b>
+{% endif %}
+{% if page.links.pdf %}<a href="{{page.links.pdf}}" class="btn btn-info trackEvent" data-cat="Paper" data-acn="Download">PDF</a>{% endif %}{% if page.links['slides.pdf'] %}
+<a href="{{page.links['slides.pdf']}}" class="btn btn-info trackEvent" data-cat="Slides" data-acn="Download">Presentation</a> 
+{% endif %}
+<br />
+<h3>BibTeX:</h3>
+{% highlight bash tabsize=2 %}
+ {{ page.entry.bibtex }} 
+{% endhighlight %}
+</section>
